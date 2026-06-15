@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: cont1
-          image: 314383175192.dkr.ecr.us-east-1.amazonaws.com/myecrrepo:6-860b129  # in this line it should be latest while running 
+          image: 314383175192.dkr.ecr.us-east-1.amazonaws.com/myecrrepo:9-860b129  # in this line it should be latest while running 
           imagePullPolicy: IfNotPresent                                            
           ports:
             - containerPort: 80
